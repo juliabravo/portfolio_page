@@ -122,3 +122,28 @@ body {
 	background-color: var(--primary-color);
 	color: hsl(0, 0%, 20%);
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 375px) {
+	.container {
+		margin-top: 125px;
+		width: 90%;
+	}
+
+	.card {
+		padding: 10px;
+	}
+
+	.card-header h2 {
+		font-size: 24px;
+	}
+
+	.card-header h5 {
+		font-size: 16px;
+	}
+
+	.content ul li a {
+		width: auto;
+		margin: 5px;
+	}
+}
